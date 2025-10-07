@@ -1,0 +1,28 @@
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#color-box {
+  width: 200px;
+  height: 200px;
+  margin: 20px auto;
+  background-color: #3498db; /* Couleur de départ */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+#change-color-btn {
+  padding: 10px 20px;
+  background-color: #037d36;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#change-color-btn:hover {
+  background-color: #e40968;
+}
